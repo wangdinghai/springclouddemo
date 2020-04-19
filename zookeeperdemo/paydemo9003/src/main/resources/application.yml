@@ -1,9 +1,9 @@
 server:
-  port: 8001
+  port: 9003
 
 spring:
   application:
-    name: orderdemo
+    name: paydemo
   cloud:
     zookeeper:
       discovery:

@@ -1,5 +1,5 @@
 server:
-  port: 8000
+  port: 8002
 
 spring:
   application:
@@ -7,7 +7,7 @@ spring:
 
 eureka:
   instance:
-    hostname: orderdemo8000
+    hostname: orderdemo8002
   client:
     register-with-eureka: true
     fetch-registry: true

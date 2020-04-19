@@ -14,6 +14,8 @@
     <modules>
         <module>paydemo9001</module>
         <module>orderdemo8001</module>
+        <module>paydemo9003</module>
+        <module>orderdemo8003</module>
     </modules>
 
     <build>

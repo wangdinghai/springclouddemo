@@ -11,7 +11,7 @@
         <module>eurekademo</module>
         <module>zookeeperdemo</module>
         <module>consuldemo</module>
-        <module>paydemo9005</module>
+
     </modules>
     <packaging>pom</packaging>
     <name>springclouddemo</name>
@@ -82,6 +82,11 @@
                 <groupId>org.apache.zookeeper</groupId>
                 <artifactId>zookeeper</artifactId>
                 <version>3.5.5</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-consul-discovery</artifactId>
+                <version>2.0.1.RELEASE</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
