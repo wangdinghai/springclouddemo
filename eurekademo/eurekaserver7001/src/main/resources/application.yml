@@ -3,11 +3,11 @@ server:
 
 spring:
   application:
-    name: EurekaServer7001
+    name: eurekaServer
 
 eureka:
   instance:
-    hostname: eurekaServer
+    hostname: eurekaServer7001
   client:
     register-with-eureka: false
     fetch-registry: false
