@@ -1,0 +1,15 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: paydemo
+
+eureka:
+  instance:
+    hostname: paydemo9002
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://EurekaServer7001:7001/eureka/,http://EurekaServer7002:7002/eureka/

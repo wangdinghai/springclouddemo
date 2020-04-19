@@ -1,0 +1,15 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: EurekaServer7001
+
+eureka:
+  instance:
+    hostname: eurekaServer
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://EurekaServer7002:7002/eureka/
